@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+.header-wrapper {
+  display: flex;
+  background-color: #61c5dc;
+}
+
+.header-wrapper img {
+  border-radius: 50%;
+  margin: 2px 20px 2px 20px;
+  height: 90px;
+  width: 90px;
+}
+
+.header-wrapper h1 {
+  color: #162d32;
+  align-self: center;
+  margin: 2px 20px 2px 20px;
+  text-transform: uppercase;
+}
+
+.header-wrapper span {
+  display: block;
+  font-weight: 100;
+  font-size: 25px;
+  align-self: center;
+}/*# sourceMappingURL=style.css.map */

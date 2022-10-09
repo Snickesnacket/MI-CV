@@ -1,17 +1,45 @@
 
-$light-color: blue;
 
 *{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    list-style: none;
+    font-family: "poppins", sans-serif;
+}
 
+body {
+    background-color: white;
 }
 
 .header-wrapper {
-    margin: 0;  
-    padding: 0;
-    font-family: 'Courier New', Courier, monospace;
-    }
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
 
-.body{
-        background-color: $light-color;
-    }
+.header-wrapper span{
+    font-size: medium;
+}
+
+.header-wrapper h1{
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.5;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.om_mig{
+    background-color:white;
+    text-align: center;
+    padding: 25%;
+}
+
+.om_mig h2{
+    text-align: center;
+
+}
