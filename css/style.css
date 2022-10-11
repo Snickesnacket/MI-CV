@@ -1,13 +1,100 @@
+@import "resetCSS.css";
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  list-style: none;
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  background-color: white;
 }
 
 .header-wrapper {
-  margin: 0;
-  padding: 0;
-  font-family: "Courier New", Courier, monospace;
+  display: block;
+  width: 100%;
+  height: auto;
+  background-color: white;
 }
 
-.body {
-  background-color: blue;
+.header-wrapper span {
+  font-size: medium;
+}
+
+.header-wrapper h1 {
+  text-align: center;
+  font-size: 30px;
+  line-height: 1.5;
+  -webkit-margin-before: 0.67em;
+          margin-block-start: 0.67em;
+  -webkit-margin-after: 0.67em;
+          margin-block-end: 0.67em;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+}
+
+.picture {
+  width: 50%;
+  position: relative;
+  margin: auto;
+  border: solid black;
+}
+
+.om_mig, .kompetenser, .utbildning, .Arbetserfarenhet, .kontakt {
+  padding: 5%;
+}
+
+h2 {
+  margin: 5px;
+  color: grey;
+}
+
+.om_mig p {
+  border-top: solid;
+  padding: 5px;
+}
+
+.kompetenser h3 {
+  border-top: solid black;
+  padding: 5px;
+}
+
+.medieinstitutet {
+  border-top: solid black;
+  padding: 5px;
+}
+
+.bjuv {
+  border-top: solid black;
+  padding: 5px;
+}
+
+.kontakt h2 {
+  border-top: solid black;
+  padding: 5px;
+}
+
+.kontakt li {
+  padding: 5px;
+}
+
+@media screen and (min-width: 1000px) {
+  header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+  .picture {
+    height: 2000px;
+    width: 40%;
+    float: left;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border: none;
+    padding-right: 15px;
+    background-color: white;
+  }
 }/*# sourceMappingURL=style.css.map */

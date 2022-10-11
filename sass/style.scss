@@ -1,4 +1,4 @@
-
+@import "resetCSS.css";
 
 *{
     margin: 0;
@@ -11,6 +11,7 @@
 body {
     background-color: white;
 }
+ 
 
 .header-wrapper {
     display: block;
@@ -33,13 +34,68 @@ body {
     margin-inline-end: 0px;
 }
 
-.om_mig{
-    background-color:white;
-    text-align: center;
-    padding: 25%;
+.picture{
+    width: 50%;
+    position: relative;
+    margin: auto;
+    border: solid black;
 }
 
-.om_mig h2{
-    text-align: center;
 
+.om_mig, .kompetenser, .utbildning, .Arbetserfarenhet, .kontakt {
+    padding: 5%;
+}
+
+h2{
+    margin: 5px;
+    color: grey;
+}
+
+.om_mig p{
+    border-top: solid;
+    padding: 5px;
+}
+
+
+.kompetenser h3{
+    border-top: solid black;
+    padding: 5px;
+}
+
+
+.medieinstitutet{
+    border-top: solid black;
+    padding: 5px;
+}
+
+.bjuv{
+    border-top: solid black;
+    padding: 5px;
+}
+
+.kontakt h2{
+    border-top: solid black;
+    padding: 5px;
+}
+
+.kontakt li{
+    padding: 5px;
+}
+
+@media screen and (min-width: 1000px){
+
+    header{
+        position: sticky;
+        top: 0;
+    }
+    .picture{
+        height: 2000px;
+        width: 40%;
+        float: left;
+        object-fit: cover;
+        border: none;
+        padding-right: 15px;
+        background-color: white;
+    }
+    
 }
